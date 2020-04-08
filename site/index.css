@@ -1,15 +1,62 @@
 
-p{
-	color: red;
-}
 h1{
 	color:blue;
 }
-=======
-p{
-	color: red;
-}
 h1{
 	color:blue;
+	text-align: center;
+}
+body {
+  background-image: url("https://sofiane-so.github.io/Coursera-Test/h/fond.png");
+  background-repeat: no-repeat;
+  	font-size: 40px;
+	color: white;
+	text-align: center;
 }
 
+.ppp{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+opacity: 50%;
+
+
+
+}
+a:link, a:visited {
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+	background-color: yellow;
+	display: block;
+	
+}
+
+a:hover{
+	background-color: red;
+	color: black;
+
+}
+a:active /* when he clicks but not release hand*/{
+background-color: purple;
+	color: black;
+
+}
+header {
+	font-size: 120px;
+}
+
+header ul li:nth-child(3){
+	font-size: 60px; !important 
+}
+ul{
+	list-style: none;
+}
+section div:nth-child(odd){
+	background-color: grey;
+}
+section a:hover div:nth-child(5){
+background-color: green;
+cursor: pointer;
+	}
